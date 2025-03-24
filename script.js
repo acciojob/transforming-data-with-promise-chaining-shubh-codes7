@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {
         setTimeout(() => {
             out.textContent = `Result: ${inp}`;
             resolve(inp);
-        }, 1000);
+        }, 2000);
     })
     .then((num) => {
         return new Promise((resolve) => {
